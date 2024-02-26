@@ -14,13 +14,10 @@ This folder includes the source and deployment files for the microservice benchm
 #### 2. SmartHPA Codebase
 This folder contains the scripts for Microservice Managers dedicated to each microservice within the benchmark application. The scripts for the Adaptive Resource Manager and Microservice Capacity Analyzer components are also included as part of codebase.
 
-#### 3. Results
-This directory refers to the Knowledge Base of SmartHPA. The monitored metrics for both Smart HPA and Kubernetes HPA for every iteration conducted in the load test are recorded. The results include data from 10 experimental runs for both SmartHPA and Kubernetes HPA, along with workload data for each individual run.
-
-#### 4. Results Analysis Script
+#### 3. Results Analysis Script
 The script used for determining and analyzing the evaluation metrics from the recorded data to assess the performance of Smart HPA is here in this folder. 
 
-#### 5. Results Visualization Script
+#### 4. Results Visualization Script
 The script in this folder is used for data visualization and generating the bar and line graphs presented in the paper.
 
 
