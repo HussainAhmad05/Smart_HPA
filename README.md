@@ -1,8 +1,8 @@
 ### This work has been accepted at the International Conference of Software Architecture (ICSA) 2024.
 
-### SmartHPA
+### Smart HPA - Smart Horizontal Pod Auto-scaler
 
-This repository contains codebase and implementation details of hierarchical architecture and resource-efficient heuristics of Smart HPA, which allows the exchange of resources among microservices, facilitating effective auto-scaling of microservices in resource-constrained environments.  
+This repository contains the codebase and implementation details of hierarchical architecture and resource-efficient heuristics of Smart HPA, which allows the exchange of resources among microservices, facilitating effective auto-scaling of microservices in resource-constrained environments.  
 
 ### Table of Contents
 
