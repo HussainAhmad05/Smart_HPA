@@ -1,4 +1,4 @@
-### Initial Configurations
+# Initial Configurations
 
 To set up and operate Smart HPA, you will require an AWS EKS cluster and 10 AWS EC2 instances for running the microservice benchmark application. Additionally, you will need a separate machine to run Smart HPA and the load testing tool, Locust (https://locust.io).  
 
@@ -15,7 +15,7 @@ Each EC2 instance (VM machine) is configured as a t3.medium instance, equipped w
 Smart HPA and Load Generating Tool (i.e., Locust) are hosted on a local machine, featuring an Intel Corei7 2.60GHz CPU and 16GB RAM. Smart HPA is connected to the application running on AWS EKS through the AWS command-line interface.
 
 
-### Steps for Setup
+# Steps for Setup
 
 #### Step 1: Connect EKS Cluster with Local Machine
 Create an EKS Cluster on AWS account with 10 EC2 nodes (VM machines) with the specified configurations. Connect the EKS cluster with the local machine through the following command.
