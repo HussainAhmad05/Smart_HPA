@@ -1,4 +1,4 @@
-### This work has been accepted at the International Conference of Software Architecture (ICSA) 2024.
+# This work has been accepted at the International Conference of Software Architecture (ICSA) 2024.
 
 ### Smart HPA - Smart Horizontal Pod Auto-scaler
 
