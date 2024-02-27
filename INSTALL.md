@@ -18,7 +18,7 @@ Smart HPA and Load Generating Tool (i.e., Locust) are hosted on a local machine,
 ### Steps for Setup
 
 #### Step 1: Connect EKS Cluster with Local Machine
-Create an EKS Cluster on AWS account with 10 EC2 nodes (VM machines) with the specified configurations.
+Create an EKS Cluster on AWS account with 10 EC2 nodes (VM machines) with the specified configurations. Connect the EKS cluster with the local machine through the following command.
 
 aws eks update-kubeconfig --region YourRegionName --name YourClusterName
 
