@@ -55,7 +55,7 @@ Run the “Microservice Capacity Analyzer” script placed in the “Smart HPA C
 
 Run the Load Test Script placed in the benchmark application. Go to the directory of the Load Test script in the command window and enter the following command:
 
-locust -f Load_Test_for_ProSmart_HPA.py --host=YourFrontendIP --csv=my_results --csv-full-history
+locust -f Load_Test_Script.py --host=YourFrontendIP --csv=my_results --csv-full-history
 
 Open the browser and go to the Locust interface through http://localhost:8089 to run the load test.
 
