@@ -61,9 +61,9 @@ Open the browser and go to the Locust interface through http://localhost:8089 to
 
 Configure the load test settings:
 
-Number of Users: 600
-Spawn Rate: 2
-Host: Your frontend’s external IP address
+Number of Users: 600, 
+Spawn Rate: 2, 
+Host: Your frontend’s external IP address, 
 Time: 900s (i.e., 15 minutes)
 
 
