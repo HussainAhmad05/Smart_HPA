@@ -15,7 +15,7 @@ Each EC2 instance (VM machine) is configured as a t3.medium instance, equipped w
 Smart HPA and Load Generating Tool (i.e., Locust) are hosted on a local machine, featuring an Intel Corei7 2.60GHz CPU and 16GB RAM. Smart HPA is connected to the application running on AWS EKS through the AWS command-line interface.
 
 
-# Steps for Setup
+# Setup Steps for Smart HPA
 
 #### Step 1: Connect EKS Cluster with Local Machine
 Create an EKS Cluster on AWS account with 10 EC2 nodes (VM machines) with the specified configurations. Connect the EKS cluster with the local machine through the following command.
@@ -35,7 +35,7 @@ You can find more details at https://github.com/GoogleCloudPlatform/microservice
 
 #### Step 3: Install metrics server on AWS EKS cluster
 
-https://docs.aws.amazon.com/eks/latest/userguide/metrics-server.html 
+Installation instructions can be found at https://docs.aws.amazon.com/eks/latest/userguide/metrics-server.html 
 
 Verify the installation: 
 
