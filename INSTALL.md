@@ -28,16 +28,26 @@ Create an EKS Cluster on AWS account with 10 EC2 nodes (VM machines) with the sp
 #### Step 2: Deploy the Benchmark Application
 Deploy the benchmark application (Online Boutique) to the EKS cluster:
 
+```sh
 kubectl apply -f ./release/kubernetes-manifests.yaml
+```
+You can find more details at https://github.com/GoogleCloudPlatform/microservices-demo 
 
 #### Step 3: Install metrics server on AWS EKS cluster
 
 https://docs.aws.amazon.com/eks/latest/userguide/metrics-server.html 
 
-Verify the installation: kubectl top pod
+Verify the installation: 
+
+```sh
+kubectl top pod
+```
 
 #### Step 4: Get the Frontend's External IP (Benchmark Application Access Link)
+
+```sh
 kubectl get all
+```
 
 Note the frontend’s external IP, for example: a4aa7c15864d64938addf2e4f76e84ef-313638180.ap-southeast-2.elb.amazonaws.com
 
@@ -57,7 +67,9 @@ Run the “Microservice Capacity Analyzer” script placed in the “Smart HPA C
 
 Run the Load Test Script placed in the benchmark application. Go to the directory of the Load Test script in the command window and enter the following command:
 
+```sh
 locust -f Load_Test_Script.py --host=YourFrontendIP --csv=my_results --csv-full-history
+```
 
 Open the browser and go to the Locust interface through http://localhost:8089 to run the load test.
 
