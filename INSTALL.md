@@ -14,6 +14,10 @@ Each EC2 instance (VM machine) is configured as a t3.medium instance, equipped w
 
 Smart HPA and Load Generating Tool (i.e., Locust) are hosted on a local machine, featuring an Intel Corei7 2.60GHz CPU and 16GB RAM. Smart HPA is connected to the application running on AWS EKS through the AWS command-line interface.
 
+### Setting up the Python Environment
+
+To begin, ensure that you have installed all the dependencies specified at the beginning of the "Microservice Capacity Analyzer" script. Additionally, place the knowledge base and all other Microservice Manager scripts in the same directory as the "Microservice Capacity Analyzer" script. Alternatively, you can edit the directory paths within the scripts to match your specific directory structure.
+
 
 # Setup Steps for Smart HPA
 
