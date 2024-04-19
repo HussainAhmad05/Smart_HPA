@@ -1,5 +1,3 @@
-# This work has been accepted at the International Conference of Software Architecture (ICSA) 2024.
-
 ### Smart HPA - Smart Horizontal Pod Auto-scaler
 
 This repository contains the codebase and implementation details of hierarchical architecture and resource-efficient heuristics of Smart HPA, which allows the exchange of resources among microservices, facilitating effective auto-scaling of microservices in resource-constrained environments.  
@@ -20,4 +18,6 @@ The script used for determining and analyzing the evaluation metrics from the re
 #### 4. Results Visualization Script
 The script in this folder is used for data visualization and generating the bar and line graphs presented in the paper.
 
+### This work has been accepted at the 21st IEEE International Conference of Software Architecture (ICSA) 2024. Preprint is available at 
+https://doi.org/10.48550/arXiv.2403.07909 
 
