@@ -13,10 +13,11 @@ This folder includes the source and deployment files for the microservice benchm
 This folder contains the scripts for Microservice Managers dedicated to each microservice within the benchmark application. The scripts for the Adaptive Resource Manager and Microservice Capacity Analyzer components are also included as part of codebase.
 
 #### 3. Results Analysis Script
-The script used for determining and analyzing the evaluation metrics from the recorded data to assess the performance of Smart HPA is here in this folder. 
+The script used to determine and analyze the evaluation metrics from the recorded data to assess the performance of Smart HPA is in this folder. 
 
 #### 4. Results Visualization Script
 The script in this folder is used for data visualization and generating the bar and line graphs presented in the paper.
 
 ### This work has been accepted at the 21st IEEE International Conference of Software Architecture (ICSA) 2024. Preprint is available at https://doi.org/10.48550/arXiv.2403.07909 
 
+### Find the poster for this work at https://tinyurl.com/a2d975fw
