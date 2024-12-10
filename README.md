@@ -18,6 +18,6 @@ The script used to determine and analyze the evaluation metrics from the recorde
 #### 4. Results Visualization Script
 The script in this folder is used for data visualization and generating the bar and line graphs presented in the paper.
 
-### This work has been accepted at the 21st IEEE International Conference of Software Architecture (ICSA) 2024. Preprint is available at https://doi.org/10.48550/arXiv.2403.07909 
+### This work has been accepted at the 21st IEEE International Conference of Software Architecture (ICSA) 2024. You can access it at https://ieeexplore.ieee.org/document/10592779. Preprint is available at https://doi.org/10.48550/arXiv.2403.07909 
 
 ### Find the poster for this work at https://tinyurl.com/a2d975fw
